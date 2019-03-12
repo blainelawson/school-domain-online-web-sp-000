@@ -1,4 +1,5 @@
 class School
+  binding.pry
   attr_reader :name, :roster, :student_name, :grade
 
   def initialize(name, roster = {})
@@ -20,6 +21,7 @@ class School
   end
 
   def sort
+    binding.pry
     roster.sort
   end
 end
