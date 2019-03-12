@@ -6,5 +6,5 @@ class School
     @name = name
   end
 
-  @roster = {}
+  def roster=(roster = {})
 end
