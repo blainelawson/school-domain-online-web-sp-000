@@ -22,7 +22,6 @@ class School
   end
 
   def sort
-    binding.pry
-    roster.sort
+    roster.each {|k,v| v.sort!}
   end
 end
