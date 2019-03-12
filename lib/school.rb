@@ -1,6 +1,6 @@
 require "pry"
 class School
-  
+
   attr_reader :name, :roster, :student_name, :grade
 
   def initialize(name, roster = {})
